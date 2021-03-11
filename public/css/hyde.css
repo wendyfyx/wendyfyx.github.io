@@ -80,7 +80,7 @@ html {
   color: #fff;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-size: 2.75rem;
 }
 
 /* Sidebar nav */
@@ -128,7 +128,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
+    max-width: 45rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }
@@ -247,4 +247,30 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+
+/* Custom */
+.projects-tagline {
+  color: rgb(140,140,140);
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 6px;
+}
+
+.news-title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.post-preview {
+  display: flex;
+}
+
+.post-preview-date {
+  font-style: italic;
+  min-width: 5em;
+  margin-right: 10px;
 }

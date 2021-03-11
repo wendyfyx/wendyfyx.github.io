@@ -1,0 +1,18 @@
+---
+layout: page
+title: Projects
+---
+
+<div class="projects">
+    {% for project in site.projects %}
+    <h3>
+        <a href="{{ project.url }}">
+            {{ project.title }}
+        </a>
+    </h3>
+    <div class="projects-tagline">{{ project.tagline }}</div>
+    <div class="projects-description"> {{ project.description }} </div>
+
+    <!-- <p>{{ project.content | markdownify }}</p> -->
+    {% endfor %}
+</div>

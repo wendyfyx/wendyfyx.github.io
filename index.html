@@ -3,35 +3,24 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
+<h1>About Wendy</h1>
+
+<hr class="solid">
+
+<p>
+  I'm a second year master student in the Computer and Information Science (CIS) department
+  at University of Pennsylvania, and am currently working in Dr. Li Shen's lab as a graduate
+  researcher. I'm interested in developing and applying machine learning methods for high dimensional
+  or multimodal neuroimaging genetics data and study how they can inform the understanding, diagnosis
+  or treatment of neurodegenerative disease with a genetic basis.
+</p>
+
+<div class="news-title">Recent News</div>
+<div class="posts-preview">
   {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+  <div class="post-preview">
+    <div class="post-preview-date"><a href="{{ post.url }}">{{ post.date | date_to_string }}</a></div>
+    <div class="post-preview-content">{{ post.content }}</div>
   </div>
   {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
 </div>

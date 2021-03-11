@@ -7,11 +7,30 @@ permalink:        pretty
 # relative_permalinks: true
 
 # Setup
-title:            Wendy
-# tagline:          'A Jekyll theme'
-description:      'Hello there'
+title:            Yixue Wendy Feng
+tagline:          'Home'
+# description:      
 url:              http://wendyfyx.github.io/
 baseurl:          /
+
+# Collections
+collections:
+  projects:
+    output : true
+
+# Default
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+  # -
+  #   scope:
+  #     path: ""
+  #     type: "projects"
+  #   values:
+  #     layout: "project" 
 
 author:
   name:           'Mark Otto'
