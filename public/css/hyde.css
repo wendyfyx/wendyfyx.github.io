@@ -128,7 +128,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 45rem;
+    max-width: 50rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }
@@ -249,6 +249,17 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
+/* Custom theme : slate */
+.theme-slate .sidebar {
+  background-color: #424f5c;
+}
+.theme-slate .content a {
+  color: #424f5c;
+}
+.theme-slate .related-posts li a:hover {
+  color: #424f5c;
+}
+
 
 /* Custom */
 .projects-tagline {
@@ -261,7 +272,7 @@ a.sidebar-nav-item:focus {
 .news-title {
   font-size: 25px;
   font-weight: 700;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
@@ -271,6 +282,6 @@ a.sidebar-nav-item:focus {
 
 .post-preview-date {
   font-style: italic;
-  min-width: 5em;
+  min-width: 7em;
   margin-right: 10px;
 }

@@ -4,7 +4,7 @@ title: Projects
 ---
 
 <div class="projects">
-    {% for project in site.projects %}
+    {% for project in site.projects reversed %}
     <h3>
         <a href="{{ project.url }}">
             {{ project.title }}

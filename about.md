@@ -3,4 +3,4 @@ layout: page
 title: About
 ---
 
-TODO About
+I should write something here about myself, but check out some of my [projects](/projects) in the meantime.
