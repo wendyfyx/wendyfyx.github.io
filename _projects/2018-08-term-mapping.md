@@ -18,5 +18,5 @@ To suggest potential mapping candidates, we created a ranking algorithm using Ap
 Currently, we are investigating ICD-MedDRA mappings in UMLS version through out the years from 2009 up to the latest 2020AB version. In addition, we are also conducting qualitative analysis of existing mappings with the help of 4 annotators with clinical background. Stay tuned for more updates!
   
 
-<sup>[^1]: This work was supported by the UTHealth Innovation for Cancer Prevention Research Summer Undergraduate Fellowship.</sup>
+[^1]: This work was supported by the UTHealth Innovation for Cancer Prevention Research Summer Undergraduate Fellowship.
 
