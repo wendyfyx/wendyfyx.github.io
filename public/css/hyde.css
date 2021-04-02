@@ -128,7 +128,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 50rem;
+    max-width: 55rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }
@@ -262,11 +262,6 @@ a.sidebar-nav-item:focus {
 
 
 /* Custom */
-.projects-tagline {
-  color: rgb(140,140,140);
-  font-style: italic;
-  margin-bottom: 6px;
-}
 
 .news-title {
   font-size: 25px;

@@ -2,9 +2,8 @@
 title: Evaluating MedDRA-ICD mapping in UMLS and OHDSI
 layout: project
 date: 2018-08-10
-tagline: Advised by Dr. Cui Tao @ UTHealth School of Biomedical Informatics (2018-2021)
-description: We conduct qualitative and quantitative analysis on mapping status between MedDRA and ICD in existing
-                terminology libraries, UMLS and OHDSI in the recent years.
+tagline: Advised by Dr. Cui Tao @UTHealth SBMI (2018-2021)
+description: Qualitative and quantitative analysis on mapping status between MedDRA and ICD
 ---
 
 I was a research intern [^1] at [Dr. Cui Tao](https://sbmi.uth.edu/faculty-and-staff/cui-tao.htm)'s lab UTHealth School of Biomedical Informatics (SBMI). My project was on evaluating the mapping status of two commonly used medical terminologies - the International Classification of Diseases (ICD) and the Medical Dictionary for Regulatory Activities ([MedDRA](https://www.meddra.org/)). 

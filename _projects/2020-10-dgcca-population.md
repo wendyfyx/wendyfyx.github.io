@@ -1,8 +1,8 @@
 ---
-title: Identifying Population Structure in Alzheimer's Disease Using Deep Multiview Learning
+title: Deep Multiview Learning for Alzheimer's Disease
 layout: project
 date: 2020-10-28
-tagline: Advised by Dr. Li Shen @ PSOM University of Pennsylvania (2020)
-description: description here
+tagline: Research project advised by Dr. Li Shen @Penn (2020)
+description: Understanding Alzheimer's disease structure using deep multiview learning
 ---
 

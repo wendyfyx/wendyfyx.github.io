@@ -1,9 +1,9 @@
 ---
-title: FoodTracker - Web Application
+title: FoodTracker
 layout: project
 date: 2019-12-27
-tagline: Course project for CIS 550 Database Systems @ SEAS University of Pennsylvania (2020)
-description: description here
+tagline: Course project for CIS 550 Database Systems @Penn (2020)
+description: An full stack web application to visualize food nutritional information
 ---
 
 This is a class project for CIS 550 Database Systems (Fall 2019) at University of Pennsylvania.
