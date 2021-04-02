@@ -1,5 +1,5 @@
 ---
-title: Identifying Mild Cognitive Subtypes Using Deep Multiview Learning From Multimodal Imaging
+title: Identifying Mild Cognitive Impairment Subtypes Using Deep Multiview Learning
 layout: project
 date: 2021-03-10
 tagline: Advised by Dr. Li Shen @ PSOM University of Pennsylvania (2020)

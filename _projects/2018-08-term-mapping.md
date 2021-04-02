@@ -1,9 +1,9 @@
 ---
-title: Evaluating MedDRA-ICD mapping using UMLS and OHDSI
+title: Evaluating MedDRA-ICD mapping in UMLS and OHDSI
 layout: project
 date: 2018-08-10
 tagline: Advised by Dr. Cui Tao @ UTHealth School of Biomedical Informatics (2018-2021)
-description: We conducted qualitative and quantitative analysis on mapping status between MedDRA and ICD in existing
+description: We conduct qualitative and quantitative analysis on mapping status between MedDRA and ICD in existing
                 terminology libraries, UMLS and OHDSI in the recent years.
 ---
 
