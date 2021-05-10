@@ -2,7 +2,7 @@
 title: Evaluating MedDRA-ICD mapping in UMLS and OHDSI
 layout: project
 date: 2018-08-10
-tagline: Advised by Dr. Cui Tao @UTHealth SBMI (2018-2021)
+tagline: Research project advised by Dr. Cui Tao @UTHealth SBMI (2018-2021)
 description: Qualitative and quantitative analysis on mapping status between MedDRA and ICD
 ---
 
