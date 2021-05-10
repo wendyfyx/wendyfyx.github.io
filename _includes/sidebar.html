@@ -1,3 +1,23 @@
+<style>
+  .sidebar-logos {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .sidebar-logos> :not(:last-child) {
+    width: auto;
+    height: 28px;
+    margin-right: 15px;
+  }
+
+  @media (min-width: 48em) {
+    .sidebar-logos {
+      justify-content: flex-start;
+    }
+  }
+</style>
+
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
@@ -34,6 +54,20 @@
         <a target="_blank" title="follow me on Twitter" href="https://www.twitter.com/wendyfyx"><img
             alt="follow me on Twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter30x30.png"></a>
       </div> -->
+      <div class="sidebar-logos">
+        <a href="https://scholar.google.com/citations?user=i5KFdZ0AAAAJ&hl=en" class="sidebar-logo">
+          <i class="ai ai-google-scholar ai-2x"></i>
+        </a>
+        <a href="https://github.com/wendyfyx" class="sidebar-logo">
+          <img height="28px" src="/assets/sidebar/github-icon-white.png" alt="Github">
+        </a>
+        <a href="https://twitter.com/wendyfyx" class="sidebar-logo">
+          <img height="28px" src="/assets/sidebar/twitter-icon-white.png" alt="Twitter">
+        </a>
+        <a href="https://www.linkedin.com/in/yixue-wendy-feng-97b01a123/">
+          <img height="28px" src="/assets/sidebar/linkedin-icon-64-white.png" alt="LinkedIn">
+        </a>
+      </div>
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
