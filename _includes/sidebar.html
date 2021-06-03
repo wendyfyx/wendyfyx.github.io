@@ -6,9 +6,12 @@
   }
 
   .sidebar-logos> :not(:last-child) {
+    margin-right: 12px;
+  }
+
+  .sidebar-logo {
     width: auto;
     height: 28px;
-    margin-right: 15px;
   }
 
   @media (min-width: 48em) {
@@ -37,7 +40,7 @@
       `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
 
-      {% assign pages_list = site.pages %}
+      <!-- {% assign pages_list = site.pages %}
       {% for node in pages_list %}
       {% if node.title != null %}
       {% if node.layout == "page" %}
@@ -45,7 +48,9 @@
         }}</a>
       {% endif %}
       {% endif %}
-      {% endfor %}
+      {% endfor %} -->
+      <a class="sidebar-nav-item" href="/projects/">Projects</a>
+      <a class="sidebar-nav-item" href="/contact/">Contact</a>
 
       <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
@@ -64,9 +69,12 @@
         <a href="https://twitter.com/wendyfyx" class="sidebar-logo">
           <img height="28px" src="/assets/sidebar/twitter-icon-white.png" alt="Twitter">
         </a>
-        <a href="https://www.linkedin.com/in/yixue-wendy-feng-97b01a123/">
+        <a href="https://www.linkedin.com/in/yixue-wendy-feng-97b01a123/" class="sidebar-logo">
           <img height="28px" src="/assets/sidebar/linkedin-icon-64-white.png" alt="LinkedIn">
         </a>
+        <!-- <a href="mailto: wendyfyx@seas.upenn.edu" class="sidebar-logo">
+          <img height="28px" src="/assets/sidebar/email-64.png" alt="Email">
+        </a> -->
       </div>
     </nav>
 

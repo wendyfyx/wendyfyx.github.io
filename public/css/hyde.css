@@ -263,10 +263,10 @@ a.sidebar-nav-item:focus {
 
 /* Custom */
 
-.news-title {
+.index-title {
   font-size: 25px;
   font-weight: 700;
-  margin-top: 20px;
+  margin-top: 1em;
   margin-bottom: 10px;
 }
 
