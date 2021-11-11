@@ -3,10 +3,13 @@ title: Evaluating MedDRA-ICD mapping in UMLS and OHDSI
 layout: project
 date: 2018-08-10
 tagline: Research project advised by Dr. Cui Tao @UTHealth SBMI (2018-2021)
-description: Qualitative and quantitative analysis on mapping status between MedDRA and ICD
+description: Qualitative and quantitative analysis on mapping status between MedDRA and ICD using 
+            exsiting terminology services UMLS and OHDSI
 ---
 
 I was a research intern [^1] at [Dr. Cui Tao](https://sbmi.uth.edu/faculty-and-staff/cui-tao.htm)'s lab UTHealth School of Biomedical Informatics (SBMI). My project was on evaluating the mapping status of two commonly used medical terminologies - the International Classification of Diseases (ICD) and the Medical Dictionary for Regulatory Activities ([MedDRA](https://www.meddra.org/)). 
+
+<hr class="solid">
 
 Heterogeneous data sources in the biomedical and clinial domain are often represented using different terminologies. To faciliate data integration tasks, a reliable mapping between such terminologies is essential.
 
@@ -14,7 +17,7 @@ We investigated MedDRA and ICD mappings in existing terminology services - Unifi
 
 To suggest potential mapping candidates, we created a ranking algorithm using Apache Lucene using Term Frequency - Inverse Document Frequency (TF-IDF) index to extract top scoring ICD terms for MedDRA terms. Using existing mappings as the gold standard, 74.29% of terms are correctly mapped (amongs the top 5 scoring terms) by our ranking algorithm. Check out our poster [here](/assets/projects/cprit-poster.pdf)!
 
-Currently, we are investigating ICD-MedDRA mappings in UMLS version through out the years from 2009 up to the latest 2020AB version. In addition, we are also conducting qualitative analysis of existing mappings with the help of 4 annotators with clinical background. Stay tuned for more updates!
+Over the following 2 years, We further investigated ICD-MedDRA mappings in UMLS version through out the years from 2009 up to 2020. In addition, we also conducted qualitative analysis of existing mappings with the help of annotators with clinical background. My collaborator Xinyuan Zhang presented our recent findings [*MedDRA-ICD Mapping Evaluation Based on UMLS and OHDSI*](https://www.youtube.com/watch?v=o7syNWwaSoU) at the 10th International Workshop on Vaccine and Drug Ontology Studies (VDOS-2021) in September!
   
 <object data="/assets/projects/cprit-poster.pdf" type="application/pdf" width="900px" height="500px">
     <embed src="/assets/projects/cprit-poster.pdf">

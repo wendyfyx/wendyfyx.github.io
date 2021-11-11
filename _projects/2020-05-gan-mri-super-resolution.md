@@ -2,7 +2,7 @@
 title: 7T to 9.4T MRI Reconstruction using GAN
 layout: project
 date: 2020-05-07
-tagline: Course project for CIS 522 Deep Learning @Penn (2020)
+tagline: Course project for CIS 522 Deep Learning @Penn
 description: Using GAN to generat high resolution 9.4T MRI from low resolution 7T MRI brain scans.
 ---
 

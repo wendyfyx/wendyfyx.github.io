@@ -14,9 +14,10 @@ title: Home
     </div>
     <!--Intro-->
     <div class="profile-intro" style="margin-top: 0.5em; margin-bottom: 0.5em;">
-      I'm an incoming <a href="https://ngp.usc.edu/">Neuroscience</a> PhD student at the University of Southern
-      California, starting Fall 2021. I completed my MS in Computer Science at the University of Pennsylvania where I
-      worked at <a href="https://www.med.upenn.edu/shenlab/"> Dr. Li Shen's lab</a> as a graduate researcher.
+      I'm a first year <a href="https://ngp.usc.edu/">Neuroscience</a> PhD student at the University of Southern
+      California. I'm interested in developing and applying machine learning / deep learning methods to high dimensional
+      or multimodal neuroimaging data and study how they can inform the understanding, diagnosis
+      or treatment of neurodegenerative diseases.
     </div>
     <div>
       <!-- <a href="https://www.notion.so/wendyfyx/Yixue-Wendy-Feng-d9ff30b9254848f4befdcaf2250b9d60"><b>Notion CV
@@ -31,23 +32,13 @@ title: Home
 
 <hr class="solid">
 
-<!--Research Interest-->
-<div class="index-title">Research Interest</div>
-<div>
-  I'm interested in developing and applying machine learning methods to high dimensional
-  or multimodal neuroimaging genetics data and study how they can inform the understanding, diagnosis
-  or treatment of neurodegenerative diseasex. I also enjoy web programming and learning about
-  distributed systems design.
-</div>
-
-
 <div class="index-title">Recent News</div>
 <div class=" posts-preview">
   {% for post in paginator.posts %}
   <div class="post-preview">
     <div class="post-preview-date">
       <!-- <a href="{{ post.url }}">{{ post.date | date: "%b %d %Y" }}</a> -->
-      {{ post.date | date: "%b %d %Y" }}
+      {{ post.date | date: "%m/%d/%Y" }}
     </div>
     <div class="post-preview-content">{{ post.content }}</div>
   </div>

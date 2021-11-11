@@ -2,7 +2,7 @@
 title: FoodTracker
 layout: project
 date: 2019-12-27
-tagline: Course project for CIS 550 Database Systems @Penn (2020)
+tagline: Course project for CIS 550 Database Systems @Penn
 description: An full stack web application to visualize food nutritional information
 ---
 

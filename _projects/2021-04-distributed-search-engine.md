@@ -2,7 +2,7 @@
 title: Distributed Search Engine
 layout: project
 date: 2021-04-01
-tagline: Course project for CIS 555 Internet & Web Systems @Penn (2021)
+tagline: Course project for CIS 555 Internet & Web Systems @Penn
 description: A distributed search engine, with crawler, indexer and PageRank
 ---
 

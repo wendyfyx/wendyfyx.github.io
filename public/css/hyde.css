@@ -279,3 +279,65 @@ a.sidebar-nav-item:focus {
   min-width: 7em;
   margin-right: 10px;
 }
+
+/* Project cards */
+.project-card {
+  background-color: aliceblue;
+  border-radius: 10px;
+  float: left;
+  /* width: calc(50% - 20px); */
+  width: 75%;
+  padding: 10px;
+  margin: 10px;
+  /* height: 145px; */
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  cursor: pointer;
+  transform: translate(0, -3px);
+}
+
+.project-card-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.project-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #268bd2;
+}
+
+.project-tagline {
+  color: rgb(140, 140, 140);
+  font-style: italic;
+  margin-bottom: 6px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+.project-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 38em) {
+  .project-card {
+      flex: 100%;
+      width: 100%;
+  }
+}
