@@ -3,7 +3,7 @@ title: Deep generative model for Learning Streamline Embeddings from Tractograph
 layout: project
 date: 2022-04-12
 tagline: Research project advised by Dr. Paul Thompson @USC (2011-Present)
-description: Using a convolutional variantional autoencoder to learn low-dimensional embeddings of white matter tracts
+description: Using a convolutional variational autoencoder to learn low-dimensional embeddings of white matter tracts
 ---
 
 This is a research project I've been working on since September 2022 in Dr. Paul Thompson's lab at the Imaging Genetics Center at University of Southern California since my research rotation. Our goal is to utilize deep representation learning for analyzing tractography data for population analysis.
