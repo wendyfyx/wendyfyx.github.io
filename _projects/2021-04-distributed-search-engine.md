@@ -1,6 +1,6 @@
 ---
 title: Distributed Search Engine
-layout: project
+layout: post
 date: 2021-04-01
 tagline: Course project for CIS 555 Internet & Web Systems @Penn
 description: A distributed search engine, with crawler, indexer and PageRank
@@ -16,9 +16,9 @@ My team built a **distributed search engine**, with 4 components:
 
 Using AWS cloud storage services such as S3 and DynamoDB, as well as Apache Spark, Apache Storm, Amazon EMR, all components are able to run in a distributed setting. I mainly worked on the indexer that reads document contents and create an inverted index to be used by the search engine and ranking algorithm. 
 
-See our project architecture below, and report [here](/assets/projects/cis555-report.pdf) with implementation and optimizations details.
+See our project architecture below, and report [here](/files/projects/cis555-report.pdf) with implementation and optimizations details.
 
 <figure style="margin-top:1em; margin-bottom:1em; display: flex; flex-direction: column; align-items: center;">
-    <img src="/assets/projects/cis555-architecture.png" alt="DGCCA Architecture" style="width:90%;"/>
+    <img src="/files/projects/cis555-architecture.png" alt="DGCCA Architecture" style="width:90%;"/>
     <figcaption style="font-style: italic;">Search Engine Architecture</figcaption>
 </figure>

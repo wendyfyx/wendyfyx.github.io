@@ -1,6 +1,6 @@
 ---
 title: PennCloud
-layout: project
+layout: post
 date: 2020-12-21
 tagline: Course project for CIS 505 Software Systems @Penn
 description: A distributed cloud platform with email service and file storage built in C++
@@ -23,6 +23,6 @@ Each frontend server also serves as a **backend client** with an interface to ac
 - **Local Checkpointing & Recovery**: The backend server node has its own BigTable storage, all changes are in memory and stored in a log file for each operation. It periodically dumps key-value pairs in memory to the local storage file (checkpointing). When a node fails, the backend master sends the failed node's address to a healthy node who sends its recovery file.
 
 <figure style="margin-top:1em; margin-bottom:1em; display: flex; flex-direction: column; align-items: center;">
-    <img src="/assets/projects/penncloud.png" alt="DGCCA Architecture" style="width:100%;"/>
+    <img src="/files/projects/penncloud.png" alt="DGCCA Architecture" style="width:100%;"/>
     <figcaption style="font-style: italic;">PennCloud Design</figcaption>
 </figure>

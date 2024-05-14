@@ -1,44 +1,81 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
+title:        Yixue Feng
+tagline:      Wendy's Home Page
+# description:  "Neuro PhD @USC"
+#Comment out url when working locally to resolve base urls correctly
+url:          https://yixuewendyfeng.com
+baseurl:      /
 
-# Permalinks
-permalink:        pretty
-# relative_permalinks: true
+# Owner/author information
+owner:
+  name: Yixue Feng
+  avatar: square.jpg
+  bio: Neuroscience PhD @USC
+  email: yixuefen@usc.edu
+  cv: /files/240513-cv_wendy.pdf
+  # Social networking links are used in author-bio sidebar. Update and remove as you like.
+  twitter: wendyfyx
+  github: wendyfyx
+  linkedin: yixue-wendy-feng-97b01a123
+  scholar: https://scholar.google.com/citations?user=i5KFdZ0AAAAJ&hl=en&authuser=1
 
-# Setup
-title:            Yixue Wendy Feng
-tagline:          'Home'
-description:      "Neuro PhD @USC"
-url:              http://wendyfyx.github.io/
-baseurl:          /
 
-# Collections
 collections:
   projects:
     output : true
-  research:
-    output : true
+    
+# Analytics and webmaster tools stuff goes here
+# https://search.google.com/search-console/ownership
+# google_verify: ""
 
-# Default
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "default"
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+# bing_verify: ""
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About Me
+    url: /
+  - title: Publications
+    url: /publications/
+  - title: Projects
+    url: /projects/
+  # - title: Blogs
+  #   url: /blogs/
 
-paginate:         8
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# timezone: China/Beijing
+# future: true
+# highlighter: rouge
+# markdown: kramdown
+# markdown: redcarpet
+# pygments: true
 
-# Custom vars
-version:          2.1.0
 
-github:
-  repo:           https://github.com/poole/hyde
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+  # coderay:
+  #   coderay_line_numbers:
+  #   coderay_line_numbers_start: 1
+  #   coderay_tab_width: 4
+  #   coderay_bold_every: 10
+  #   coderay_css: class
+
+
+# disqus settings:
+# disqus:
+#   shortname: lancecai
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
 
 plugins:
   - jekyll-paginate
