@@ -18,4 +18,4 @@ We built a full stack web application (see full report [here](/files/projects/fo
     <figcaption style="font-style: italic;">Application architecture</figcaption>
 </figure> -->
 
-<iframe src="https://player.vimeo.com/video/532682960?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="food_tracker_demo" style="margin-top:1em;"></iframe>
+<!-- <iframe src="https://player.vimeo.com/video/532682960?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="food_tracker_demo" style="margin-top:1em;"></iframe> -->

@@ -27,7 +27,8 @@ title: Publications
   <ins>Feng Y</ins>, Chandio BQ, Villalón-Reina, JE, Thomopoulos SI, Joshi H, Nair G, Joshi AA, Venkatasubramanian G, John JP, & Thompson PM.
 
 - **Variational Autoencoders for Generating Synthetic Tractography-Based Bundle Templates in a Low-Data Setting**
-  \[[<span style="color:blue">paper</span>](https://doi.org/10.1109/EMBC40787.2023.10340009)\]    
+  \[[<span style="color:blue">paper</span>](https://doi.org/10.1109/EMBC40787.2023.10340009)\]
+  [**<span style="color:darkorange">Oral</span>**]      
   [IEEE EMBC 2023](https://embc.embs.org/2023/). Sydney, Australia. (2023).  
   <ins>Feng Y</ins>, Chandio BQ, Thomopoulos SI, Chattopadhyay T, & Thompson PM.
 
@@ -39,7 +40,8 @@ title: Publications
   <ins>Feng Y</ins>, Chandio BQ, Chattopadhyay T, Thomopoulos SI, Owens-Walton C, Jahanshad N, Garyfallidis E, & Thompson PM.
 
 - **Deep Multiview Learning to Identify Population Structure with Multimodal Imaging**
-  \[[<span style="color:blue">paper</span>](https://doi.org/10.1109/BIBE50027.2020.00057)\]    
+  \[[<span style="color:blue">paper</span>](https://doi.org/10.1109/BIBE50027.2020.00057)\]
+  [**<span style="color:darkorange">Oral</span>**]   
   [IEEE BIBE 2020](https://ieeexplore.ieee.org/xpl/conhome/9287816/proceeding). Cincinnati, Ohio. (2020).  
   <ins>Feng Y</ins>, Kim M, Yao X, Liu K, Long Q, & Shen L.
 
@@ -48,7 +50,7 @@ title: Publications
 ## Preprint
 
 - **Deep Normative Tractometry for Identifying Joint White Matter Macro- and Micro-structural Abnormalities in Alzheimer’s Disease.**
-  \[[<span style="color:blue">paper</span>](https://doi.org/10.1101/2024.02.05.578943)\]    
+  \[[<span style="color:blue">paper</span>](https://doi.org/10.1101/2024.02.05.578943)\]
   Preprint. [Accepted to IEEE EMBC 2024](https://embc.embs.org/2024/). Orlando, Florida. (2024).  
   <ins>Feng Y</ins>, Chandio BQ, Villalon-Reina JE, Benavidez S, Chattopadhyay T, Chehrzadeh S, Laltoo E, Thomopoulos SI, Joshi H, Venkatasubramanian G, John JP, Jahanshad N, & Thompson PM.
 

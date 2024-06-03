@@ -47,9 +47,9 @@ For all inquiries, please email me at <b>&lt;yixuefen at usc.edu&gt;</b>.
 
 ## News and Updates
 
+- **06/2024:** Our work on deep normative tractometry has been accepted to [EMBC 2024](https://www.sigmobile.org/mobisys/2024/) as an oral presentation.
 - **05/2024:** Our work on normative tractometry has been awarded a seed grant from USC Generative Artificial Intelligence (GenAI) Research Program ($50K)!
 - **05/2024:** Preprint for our new method *Macrostructure-Informed Normative Tractometry (MINT)* is now out on [biorxiv](https://www.biorxiv.org/content/10.1101/2024.04.25.591183v1).
-- **02/2024:** Our work on deep normative tractometry has been accepted to [EMBC 2024](https://www.sigmobile.org/mobisys/2024/).
 - **10/2023:** Presented our new method [*BundleCleaner*](https://www.biorxiv.org/content/10.1101/2023.08.19.553990v1) at the [MICCAI CDMRI workshop](http://cmic.cs.ucl.ac.uk/cdmri/programme.html) in Vancouver, Canada.
 
 
