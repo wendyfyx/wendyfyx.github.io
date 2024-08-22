@@ -17,7 +17,7 @@ layout: page
 
 <div class="about-me">
 <div style="flex: 1 1">
-I'm a third year <a href="https://ngp.usc.edu/">Neuroscience</a> PhD student advised by <a href="https://keck.usc.edu/faculty-search/paul-m-thompson/">Dr. Paul Thompson</a> at the Imaging Genetics Center at the University of Southern California. My research involves diffusion MRI analysis for mapping micro- and macro-structural changes of white matter tracts in neurodegenerative diseases. I'm also interested in developing and applying ML/DL methods for large-scale multi-site neuroimaging data to promote reproducibility and reliability of results.
+I'm a <a href="https://ngp.usc.edu/">Neuroscience</a> PhD candidate advised by <a href="https://keck.usc.edu/faculty-search/paul-m-thompson/">Dr. Paul Thompson</a> at the Imaging Genetics Center at the University of Southern California. My research involves diffusion MRI analysis for mapping micro- and macro-structural changes of white matter tracts in neurodegenerative diseases. I'm also interested in developing and applying machine learning and AI methods for large-scale multi-site neuroimaging data to promote reproducibility and reliability of results.
 <br/>
 For all inquiries, please email me at <b>&lt;yixuefen at usc.edu&gt;</b>.
 </div>
@@ -47,10 +47,11 @@ For all inquiries, please email me at <b>&lt;yixuefen at usc.edu&gt;</b>.
 
 ## News and Updates
 
-- **06/2024:** Our work on deep normative tractometry has been accepted to [EMBC 2024](https://www.sigmobile.org/mobisys/2024/) as an oral presentation.
-- **05/2024:** Our work on normative tractometry has been awarded a seed grant from USC Generative Artificial Intelligence (GenAI) Research Program ($50K)!
-- **05/2024:** Preprint for our new method *Macrostructure-Informed Normative Tractometry (MINT)* is now out on [biorxiv](https://www.biorxiv.org/content/10.1101/2024.04.25.591183v1).
-- **10/2023:** Presented our new method [*BundleCleaner*](https://www.biorxiv.org/content/10.1101/2023.08.19.553990v1) at the [MICCAI CDMRI workshop](http://cmic.cs.ucl.ac.uk/cdmri/programme.html) in Vancouver, Canada.
+- **08/2024:** Our paper [*Microstructural Mapping of Neural Pathways in Alzheimer’s Disease using Macrostructure-Informed Normative Tractometry*](https://doi.org/10.1101/2024.04.25.591183) has been accepted to [Alzheimer's & Dementia: The Journal of the Alzheimer's Association](https://alz-journals.onlinelibrary.wiley.com/journal/15525279).
+- **08/2024:** **New preprint!** *BundleAGE: Predicting White Matter Age using Along-Tract Microstructural Profiles from Diffusion MRI* is now out on [biorxiv](https://www.biorxiv.org/content/10.1101/2024.08.16.608347v1).
+- **08/2024:** I passed my qualifying exam and am now a PhD candidate!
+- **07/2024:** Code for our new method *Macrostructure-Informed Normative Tractometry (MINT)* is now available on [Github](https://github.com/wendyfyx/MINT).
+- **05/2024:** Our work on generative AI-Based tractometry has been awarded a [seed grant from USC GenAI Research Program](https://research.usc.edu/news/2024/05/usc-oori-awards-four-faculty-led-projects-under-genai-program/) ($50K)!
 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">New Preprint❗️<br>Our new method Macrostructure-Informed Normative Tractometry (🍃MINT🍃) is a framework that jointly encodes whole-brain white matter microstructure (DTI) and macrostructure (tractography) for mapping WM abnormalities. <a href="https://t.co/C0hHS6Exab">https://t.co/C0hHS6Exab</a> <a href="https://t.co/Anv7tBhZzP">pic.twitter.com/Anv7tBhZzP</a></p>&mdash; Wendy Feng (@wendyfyx) <a href="https://twitter.com/wendyfyx/status/1785538128620769397?ref_src=twsrc%5Etfw">May 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Code for MINT with pretrained model and example scripts are now available at <a href="https://t.co/JEurFNf1Ws">https://t.co/JEurFNf1Ws</a>! <a href="https://t.co/5In4jSaui8">https://t.co/5In4jSaui8</a></p>&mdash; Wendy Feng (@wendyfyx) <a href="https://twitter.com/wendyfyx/status/1823465191755145669?ref_src=twsrc%5Etfw">August 13, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
